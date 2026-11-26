@@ -47,3 +47,22 @@ All colors, fonts and spacing are defined as CSS variables in `css/style.css` an
 - BEM-style class names such as `.card`, `.card__title`.
 - No inline styles; layout is done with Flexbox.
 - Code is formatted with Prettier (format on save is enabled in `.vscode/settings.json`).
+
+## Pages
+
+| Page            | File              | Content                                                       |
+| --------------- | ----------------- | ------------------------------------------------------------- |
+| Home            | `index.html`      | Hero slider, featured perfumes, brand teaser                  |
+| Collection      | `collection.html` | Perfume cards filtered by scent family, fragrance notes guide |
+| About           | `about.html`      | Brand story, perfumers, values, contact form                  |
+| Login           | `login.html`      | Login form with show/hide password and validation             |
+| Register        | `register.html`   | Registration form with varied input types and validation      |
+
+Every page shares the same header, navigation menu and footer.
+
+## Team
+
+| Member   | GitHub                                                 | Responsibilities                                                     |
+| -------- | ------------------------------------------------------ | -------------------------------------------------------------------- |
+| Person A | [@elza952](https://github.com/elza952)                 | Project setup, shared header/footer, Home, slider, Collection        |
+| Person B | [@medinarexheppi](https://github.com/medinarexheppi)   | Login, Register, form validation, show/hide password, About, buttons |
